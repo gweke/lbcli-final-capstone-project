@@ -1,0 +1,91 @@
+$ bash submission/FT04.sh
+[
+  {
+    "txid": "4df9f307f488fc8856543952d58242f3bc73e4f00b686fee8dd4ee4d6c65fa78",
+    "vout": 390,
+    "address": "tb1qdcfaqcchcc79x5mlg8l4kfducwrtdpa8w9mpxh",
+    "label": "",
+    "scriptPubKey": "00146e13d06317c63c53537f41ff5b25bcc386b687a7",
+    "amount": 0.00331208,
+    "confirmations": 19,
+    "spendable": true,
+    "solvable": true,
+    "desc": "wpkh([4b5439fd/84h/1h/0h/0/0]03fe63720d72a43a59c4602b6a1c81b5204fe38795632b5b617797731610d89264)#k75xsqjs",
+    "parent_descs": [
+      "wpkh(tpubD6NzVbkrYhZ4XSmdv1acz4ZYPprNGEXGBqwsVGmUbttJR9VNmqtnJPJPF2JXwvMAkJw7bXVhv8L6qi6fBFHdY55zT5CWXBd3YYhM8zrmLGX/84h/1h/0h/0/*)#70xz23jx"
+    ],
+    "safe": true
+  }
+]
+utxos tx_id
+4df9f307f488fc8856543952d58242f3bc73e4f00b686fee8dd4ee4d6c65fa78
+vout index
+390
+utxo value
+ in btc 0.00331208 and in sat 331208
+change address
+tb1qlrcs83h8pre4ednx2cx3g4z8zkfklsu6z5hc6x
+change_amount
+320508
+amount to send btc: 0.00010000 change amount btc: 0.00320508
+raw tx hex
+020000000178fa656c4deed48dee6f680bf0e473bcf34282d55239545688fc88f407f3f94d8601000000010000000210270000000000001600146b43827211e69f19ea3fb7b74c865ffa326c2aacfce3040000000000160014f8f103c6e708f35cb666560d14544715936fc39a00000000
+signed tx hex or send tx_id
+0200000000010178fa656c4deed48dee6f680bf0e473bcf34282d55239545688fc88f407f3f94d8601000000010000000210270000000000001600146b43827211e69f19ea3fb7b74c865ffa326c2aacfce3040000000000160014f8f103c6e708f35cb666560d14544715936fc39a02473044022070b69e1c6840d9336f19f1f421b47734b89e8333f510d91c24d783790211c2d7022035fcdb9976135fb639d4fa2ee31ba87ddcd4677137766ece13556c9695182148012103fe63720d72a43a59c4602b6a1c81b5204fe38795632b5b617797731610d8926400000000
+e1f813e28ad827cb09bf7e9ddfb90c655f16624d49befe6e867fc8f245dea598
+decode raw tx
+{
+  "txid": "e1f813e28ad827cb09bf7e9ddfb90c655f16624d49befe6e867fc8f245dea598",
+  "hash": "e1f813e28ad827cb09bf7e9ddfb90c655f16624d49befe6e867fc8f245dea598",
+  "version": 2,
+  "size": 113,
+  "vsize": 113,
+  "weight": 452,
+  "locktime": 0,
+  "vin": [
+    {
+      "txid": "4df9f307f488fc8856543952d58242f3bc73e4f00b686fee8dd4ee4d6c65fa78",
+      "vout": 390,
+      "scriptSig": {
+        "asm": "",
+        "hex": ""
+      },
+      "sequence": 1
+    }
+  ],
+  "vout": [
+    {
+      "value": 0.00010000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "0 6b43827211e69f19ea3fb7b74c865ffa326c2aac",
+        "desc": "addr(tb1qddpcyus3u603n63lk7m5epjllgexc24vj5ltp7)#psfk055c",
+        "hex": "00146b43827211e69f19ea3fb7b74c865ffa326c2aac",
+        "address": "tb1qddpcyus3u603n63lk7m5epjllgexc24vj5ltp7",
+        "type": "witness_v0_keyhash"
+      }
+    },
+    {
+      "value": 0.00320508,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "0 f8f103c6e708f35cb666560d14544715936fc39a",
+        "desc": "addr(tb1qlrcs83h8pre4ednx2cx3g4z8zkfklsu6z5hc6x)#gcwlupvj",
+        "hex": "0014f8f103c6e708f35cb666560d14544715936fc39a",
+        "address": "tb1qlrcs83h8pre4ednx2cx3g4z8zkfklsu6z5hc6x",
+        "type": "witness_v0_keyhash"
+      }
+    }
+  ]
+}
+send_tx_id to check if it's the same as send_tx_id
+e1f813e28ad827cb09bf7e9ddfb90c655f16624d49befe6e867fc8f245dea598
+
+
+FT04_1.sh output
+blockhash
+000000716e5a7dcd89c7dc03b095cbc2f86cb6d09e037953d685ab09e2527a98
+utxos tx_id blockheight
+245271
+coinbase tx_id in the utxos tx_id block
+bb82a19eb8b1d73bb0e40b1afb5ad23fe395cf21d5991bd13f60f05733946276

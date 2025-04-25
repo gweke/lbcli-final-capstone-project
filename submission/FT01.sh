@@ -1,3 +1,6 @@
+#1. Create a bitcoin wallet using your github username as wallet name
+#    - Add your wallet name to the `wallet.txt` file
+
 wallet_name="gweke"
 
 echo $(bitcoin-cli -signet createwallet $wallet_name)
